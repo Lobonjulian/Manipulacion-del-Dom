@@ -1,0 +1,91 @@
+/*Estilos generales*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*estilo para los contenedores  */
+div{
+  border-radius: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.temas {
+  background-color: #962E1C;
+  height: 700px;
+}
+.opciones{
+  background-color: #dcdcdcd7;
+  height: 70px;
+}
+
+.imaPrincipal{
+  border-radius: 10px;
+  height: 520px;
+  width: 350px;
+}
+.titulo{
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.degradado{
+  background-image: linear-gradient(to right top, #90867a, #a18877, #b48878, #c88780, #d98690, #e18294, #e97f99, #f07ba0, #f57392, #f96b82, #fb6471, #fb5f5f);
+}
+.degradado:hover{
+  background-color: #eb8a68;
+}
+
+/*estilo Pie de pagina*/
+footer {
+    background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%);;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .footer-left h3,
+  .footer-right h3 {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .footer-left p {
+    color: #ccc;
+  }
+  
+  .social-media-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-media-icons li {
+    margin: 0 5px;
+  }
+  
+  .social-media-icons a {
+    color: #fff;
+    font-size: 20px;
+  }
