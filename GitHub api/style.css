@@ -1,0 +1,143 @@
+/*estilos Generales */
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+/*contenedores */
+
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #566683;
+    color: #eeeeee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contenedores */
+.container{
+    padding: 10px 20px;
+    width: 40rem;
+}
+
+.container h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.busqueda {
+    background-color: #161922;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #999aaa;
+    border-radius: 10px;
+}
+
+.busqueda input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    color: #eeeeee;
+    font-size: 15px;
+}
+
+.busqueda button{
+    background-color: #ca9b37;
+    color: #eeeeee;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.busqueda button:hover{
+    background-color: #7a7467;
+}
+
+.detalles{
+    margin-top: 20px;
+    background-color: #161922;
+    padding: 20px 25px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: none;
+}
+
+
+/*Para cuande se ingresa los datos de github*/
+.details{
+    margin-top: 20px;
+    background-color: #161922;
+    padding: 20px 25px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    display: none;
+}
+
+.profile-image{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.profile-details{
+    padding: 10px;
+    width: 25rem;
+}
+
+.username{
+    font-size: 13px;
+    color: #675afe;
+}
+
+.bio{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.stats{
+    background-color: #566683;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.media p{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
