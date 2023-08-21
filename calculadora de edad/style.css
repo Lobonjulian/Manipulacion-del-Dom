@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap');
+
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #e8ecf1;
+}
+
+/*Contenedores*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Press Start 2P', cursive;
+}
+.titulo{
+    margin: 10px;
+}
+
+h1, h3 {
+    background: radial-gradient(circle, #080808 10%, #d31a1a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lobster', cursive;
+}
+
+.main-container{
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#917d7d; 
+    border-radius: 25px;
+}
+.edad{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.lista-edad {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+button{
+    width: 40%;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: #fafafa;
+    background: #440ae2;
+    border-radius: 20px;
+    
+}
+button:hover {
+    cursor: pointer;
+    background: #15194b;
+}
+
+.pie-de-pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px;
+}  
+.redes svg{
+    height: 35px;
+}  
+
+.legal{
+    font-size: 15px;
+}
