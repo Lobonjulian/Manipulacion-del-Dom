@@ -2,8 +2,8 @@
 
 # Manipulacion del Dom 
 
-Este es un proyecto en el cual muestro mis habilades y conocimiento en el manejo de como
-desarrolador Fron-end.
+Este es un proyecto en el cual muestro mis habilidades y conocimiento en el manejo de como
+desarrollador Front-end.
 
 ![DOM](/img/dom.png)
 
@@ -26,6 +26,8 @@ desarrolador Fron-end.
     +  5. Calculadora de Edad
         ![Proyecto5](/Calculadora%20de%20edad//img/calculadoraEdad.png)
     
+    +  6. Calculadora Básica
+        ![Proyecto6](/Calculadora///img/calculadora%20(2).png)
 ---
 ## 🛠 Skills
 <p align="left"> 
