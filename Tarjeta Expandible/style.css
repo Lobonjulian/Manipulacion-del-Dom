@@ -1,0 +1,80 @@
+/* Estilos generales */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Megidana';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Legend';
+}
+
+/* contenedores */
+.container{
+    display: flex;
+    width: 80vw;
+    text-align: center;
+}
+
+
+.contenedor {
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 45px;
+    color: #99af64;
+    cursor: pointer;
+    --webkit-transition: all 500ms ease-in;
+}
+
+.contenedor h4{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
+.contenedor.activo{
+    flex: 5;
+}
+
+.contenedor.activo h4 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+/* para celulares */
+@media (max-width: 500px) {
+    .container{
+        width: 100vw;
+    }
+
+    .contenedor:nth-of-type(2),
+    .contenedor:nth-of-type(3),
+    .contenedor:nth-of-type(5){
+        display: none;
+    }
+}
+
+/* Textos */
+@font-face {
+    font-family: 'Legend';
+    src: url(Font/Legend.otf);
+}
+@font-face {
+    font-family: 'Megidana';
+    src: url(Font/Megidana.otf);
+}

@@ -8,27 +8,20 @@ desarrollador Front-end.
 ![DOM](/img/dom.png)
 
 ---
-
  - Trabajos realizados
 
-    +  1. App de Generacion de colores Hexadecimal
-        ![Proyecto1](/Codigo%20Hexadecimal/img/color.png)
+|   #     |         Proyecto    |       live Demo  |
+|   :-:   |         :-:         |           :-:    |
+|   01    | App de Generacion de colores Hexadecimal | ![Proyecto1](/Codigo%20Hexadecimal/img/color.png) |
+|   02    | Cronometro | ![Proyecto2](/Cronometro//img/cronometro.png) |
+|   03    | Modo de pagina | ![Proyecto3](/modo%20de%20pagina/img/pagina.png) |
+|   04    | Buscador de Perfiles en Github | ![Proyecto4](/GitHub%20api//img/apiGitHub.png) |
+|   05    | Calculadora de Edad | ![Proyecto5](/Calculadora%20de%20edad//img/calculadoraEdad.png) |
+|   06    | Calculadora Básica | ![Proyecto6](/Calculadora///img/calculadora%20(2).png)|
+|   07    | Tarjeta Expandible | ![Proyecto7](/Tarjeta%20Expandible//img/Tarjeta%20Expandible.png) |
 
-    +  2. Cronometro
-        ![Proyecto2](/Cronometro//img/cronometro.png)
-
-    +  3. Modo de pagina
-        ![Proyecto3](/modo%20de%20pagina/img/pagina.png)
-
-    +  4. Buscador de Perfiles en Github
-        ![Proyecto4](/GitHub%20api//img/apiGitHub.png)
-
-    +  5. Calculadora de Edad
-        ![Proyecto5](/Calculadora%20de%20edad//img/calculadoraEdad.png)
-    
-    +  6. Calculadora Básica
-        ![Proyecto6](/Calculadora///img/calculadora%20(2).png)
 ---
+
 ## 🛠 Skills
 <p align="left"> 
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
