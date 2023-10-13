@@ -19,6 +19,7 @@ desarrollador Front-end.
 |   05    | Calculadora de Edad | ![Proyecto5](/Calculadora%20de%20edad//img/calculadoraEdad.png) |
 |   06    | Calculadora Básica | ![Proyecto6](/Calculadora///img/calculadora%20(2).png)|
 |   07    | Tarjeta Expandible | ![Proyecto7](/Tarjeta%20Expandible//img/Tarjeta%20Expandible.png) |
+|   08    | App de Libreria    | ![proyecto8](/ebook/img/logo.png)  |
 
 ---
 
@@ -29,5 +30,5 @@ desarrollador Front-end.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://julianlobon.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-aguilar-/)

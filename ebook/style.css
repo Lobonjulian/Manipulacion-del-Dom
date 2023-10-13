@@ -1,0 +1,185 @@
+/* Estilos generales */
+:root {
+  --primary-color: #2185d5;
+  --secondary-color: #fdf7ff;
+  --dark: #101826;
+  --dark-suave: #3a4750;
+  --color-text: #f2f2f2;
+}
+
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Botones */
+.btn {
+  padding: 10px 20px;
+  height: 40px;
+  font-size: 16px;
+  background-color: var(--dark-suave);
+  color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+/* Input */
+input {
+  margin: 5px 0;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* contenedores */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10vh;
+  background-color: var(--dark);
+}
+
+.header--h1 {
+  color: var(--color-text);
+}
+
+.header__btn__login {
+  background-color: var(--secondary-color);
+  color: var(--dark-suave);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__container {
+  padding: 10px;
+  margin-top: 20px;
+  min-height: 30vh;
+  max-height: 50vh;
+  min-width: 20vw;
+  max-width: 45vw;
+  background-color: var(--primary-color);
+  box-shadow: var(--dark) 10px 4px 5px;
+}
+
+.form__checkbok {
+  flex-direction: row;
+}
+
+.form__checkbok__input {
+  margin-right: 15px;
+}
+
+.form__btn__input {
+  width: 100%;
+  margin: 5px auto;
+}
+
+.form__btn__close {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--dark-suave);
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.book {
+  min-height: 15vh;
+  max-height: 30vh;
+  min-width: 15vw;
+  max-width: 45vw;
+  box-shadow: var(--dark) 10px 4px 5px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--dark-suave);
+}
+
+.book .title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+#read-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.btn__remove {
+  background: var(--color-text);
+  color: var(--dark);
+}
+
+footer {
+  background-color: var(--color-text);
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--dark-suave);
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 16px;
+}

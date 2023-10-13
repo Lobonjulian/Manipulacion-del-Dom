@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ebook App</title>
+    <script
+      src="https://kit.fontawesome.com/a239ef0096.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header--h1">Library App</h1>
+        <!-- pendiente de implementar -->
+        <button class="header__btn__login btn">Login</button>
+      </header>
+
+      <main class="main">
+        <button class="main__btn btn" id="open-form">Add a book</button>
+
+        <div id="form-container">
+          <form id="form" class="form form__container">
+            <label for="input-title">Titulo</label>
+            <input
+              type="text"
+              name="input-title"
+              id="input-title"
+              placeholder="Title"
+              required
+            />
+            <label for="input-author">Author</label>
+            <input
+              type="text"
+              name="input-author"
+              id="input-author"
+              placeholder="Author"
+              required
+            />
+            <label for="input-pages">Numero de paginas :</label>
+            <input
+              type="number"
+              min="10"
+              maxlength="100"
+              name="input-pages"
+              id="input-pages"
+              placeholder="Pages"
+              required
+            />
+
+            <div class="form form__checkbok" id="input-checkbox">
+              <input
+                class="form__checkbok__input"
+                type="checkbox"
+                id="input-read-yes"
+                name="input-read-yes"
+                value="yes"
+              />
+              <label for="input-read-yes">Read?</label>
+            </div>
+
+            <input
+              class="btn form__btn__input"
+              id="submit-btn"
+              type="submit"
+              value="Submit"
+            />
+
+            <button class="form__btn__close btn" id="close-form">
+              <i class="fa-solid fa-ban"> Close</i>
+            </button>
+          </form>
+        </div>
+      </main>
+
+      <div class="books-container"></div>
+
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+            </div>
+            <div class="footer-info">
+              <h3>Library App</h3>
+              <p>Application developed by Julian Lobon</p>
+              <p>Contact information: Julitolos6@gmail.com</p>
+              <p><i class="fa-solid fa-copyright"></i> Copyright</p>
+              <p><span id="year"></span></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+    <script>
+      // Obtener el elemento HTML donde se mostrará el año
+      const yearElement = document.getElementById("year");
+
+      // Obtener el año actual
+      const yearActual = new Date().getFullYear();
+
+      // Actualizar el contenido del elemento con el año actual
+      yearElement.textContent = yearActual.toString();
+    </script>
+  </body>
+</html>
