@@ -52,10 +52,10 @@ function getRandomChoice() {
 /**
  * Verifica si el juego ha terminado.
  *
- * @return {boolean} Devuelve true si playerScore o computerScore es igual a 3, de lo contrario devuelve false.
+ * @return {boolean} Devuelve true si playerScore o computerScore es igual a 5, de lo contrario devuelve false.
  */
 function isGameOver() {
-  return playerScore === 3 || computerScore === 3;
+  return playerScore === 5 || computerScore === 5;
 }
 
 // manipulación del Dom
@@ -123,7 +123,7 @@ function updateChoices(playerSelection, computerSelection) {
 
   switch (computerSelection) {
     case 'PIEDRA':
-      computerSign.textContent = '💻✊🏻';
+      computerSign.textContent = '🖥️✊🏻';
       break;
     case 'PAPEL':
       computerSign.textContent = '💻🖐🏻';
@@ -218,7 +218,7 @@ function restartGame() {
   playerScore = 0;
   computerScore = 0 ; 
   scoreInfo.textContent = 'Intenta nuevamente'
-  scoreMessage.textContent = 'El primero en realizar 3 puntos gana'
+  scoreMessage.textContent = 'El primero en realizar 5 puntos gana'
   playerScoreGame.textContent = 'Player: 0'
   computerScoreGame.textContent = 'Computer: 0'
   playerSign.textContent = '🙅🏽‍♂️'

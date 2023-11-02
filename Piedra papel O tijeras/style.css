@@ -1,0 +1,174 @@
+:root {
+  --titulo : #dbdbdb;
+  --texto: #FBEAFF;
+  --bgFondo : #242424;
+  --bgCuadros: #6D6D6D;
+}
+/*generales */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--titulo);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  height: 15vh;
+  background-color: var(--bgCuadros);
+}
+
+.header--title {
+  font-size: 2.5rem;
+  font-family: Next;
+  color: var(--titulo);
+}
+
+main {
+  background-color: var(--bgFondo);
+}
+/* section 1 texto */
+.texto--titulo {
+  margin-top: 5vh;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.texto--parrafo{
+  font-size: 1.75rem;
+}
+
+/* section 2  puntajes */
+.puntajes {
+  max-width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+} 
+
+.puntajes__maquina ,
+.puntajes__humano{
+  font-size: 7rem;
+  margin-bottom: 10px;
+}
+
+.puntuacion {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+/* section 3 opciones del juego */
+button {
+  border-radius: 50%;
+  background-color: #FBEAFF;
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #a99cac;
+  transition: 2s;
+}
+.boton{
+  background-color:  #FBEAFF;
+}
+.boton--icon {
+  font-size: 6rem;
+}
+
+/* footer */
+.footer {
+  height: 20vh;
+  background-color: var(--bgCuadros);
+}
+
+.footer--copyright {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+.fab{
+  font-size: 2rem;
+}
+
+/* MODALS */
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--bgFondo);
+  text-align: center;
+  font-size: 3rem;
+  user-select: none;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.btn-restart {
+  padding: 10px 20px;
+  color: var(--bgFondo);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bgCuadros);
+  opacity: 0.6;
+}
+
+.overlay.active {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .header--title {
+    font-size: 1.5rem;
+  }
+
+ .texto--titulo{
+  font-size: 1.5rem;
+  text-align: center;
+ }
+
+ .texto--parrafo{
+  font-size: 1rem;
+ }
+
+  .boton--icon {
+    font-size: 3.2rem;
+  }
+
+  .modal {
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header--title{
+    font-size: 1rem;
+  } 
+}
+@font-face {
+  font-family: Next;
+  src: url(Font/NextCustom.ttf);
+}
