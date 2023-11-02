@@ -4,8 +4,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Piedra Papel y Tijeras</title>
+  <link rel="stylesheet" href="style.css">
+  <script
+    src="https://kit.fontawesome.com/4c536a6bd5.js"
+    crossorigin="anonymous"
+  >
+  </script>
 </head>
 <body>
+  <header class="container header">
+    <h1 class="header--title">Piedra, Papel o Tijeras</h1>
+  </header>
+  <main>
+    <section class="container texto">
+      <div class="texto texto__caja">
+        <h2 id="textoInfo" class="texto--titulo">Elige tu Opción favorita</h2>
+        <p id="textoMessage" class="texto--parrafo">El primero en hacer una <strong>3 puntos</strong> gana la partida.</p>
+      </div>
+    </section>
+    <section class="container puntajes">
+      <div class="puntajes">
+        <div class="puntajes__humano" id="humano">
+          🙅🏽‍♂️
+        </div>
+        <p id="puntajeHumano" class="puntuacion">Player : 0</p>
+      </div>
+      <div class="puntajes">
+        <div class="puntajes__maquina" id="maquina">
+          🖥️
+        </div>
+        <p id="puntajeMaquina" class="puntuacion">Computer : 0</p>
+      </div>
+    </section>
+    <section class="container botones" >
+      <button class="boton" id="piedraBtn">
+        <div class="boton--icon">
+          ✊🏽
+        </div>
+      </button>
+      <button>
+        <div class="boton--icon" id="papelBtn">
+          🖐🏽
+        </div>
+      </button>
+      <button>
+        <div class="boton--icon" id="tijerasBtn">
+          ✌🏽
+        </div>
+      </button>
+    </section>
+  </main>
+  <footer class="container footer">
+    <p class="footer--copyright">Copyright &copy; 
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      Julian Lobon Aguilar
+    </p>
+    <a href="https://github.com/Lobonjulian" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </footer>
+  <div class="modal" id="finGameModal">
+    <p class="modal--title" id="finGameMsg"></p>
+    <button class="btn btn-restart" id="restartBtn">Jugar de nuevo</button>
+  </div>
+  <div class="overlay" id="overlay"></div>
   <script src="main.js"></script>
 </body>
 </html>
