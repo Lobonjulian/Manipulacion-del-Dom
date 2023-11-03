@@ -4,14 +4,17 @@
   --secondary-color: #fdf7ff;
   --dark: #101826;
   --dark-suave: #3a4750;
-  --color-text: #f2f2f2;
+  --color-text: #b9b5b5;
 }
 
-*,
-html {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  height: 100%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -49,6 +52,7 @@ input {
 .container {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
@@ -75,15 +79,12 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1;
 }
 
 .form__container {
   padding: 10px;
   margin-top: 20px;
-  min-height: 30vh;
-  max-height: 50vh;
-  min-width: 20vw;
-  max-width: 45vw;
   background-color: var(--primary-color);
   box-shadow: var(--dark) 10px 4px 5px;
 }
@@ -115,11 +116,8 @@ input {
 }
 
 .book {
-  min-height: 15vh;
-  max-height: 30vh;
-  min-width: 15vw;
-  max-width: 45vw;
   box-shadow: var(--dark) 10px 4px 5px;
+  color: var(--color-text);
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
@@ -133,7 +131,7 @@ input {
 .book .title {
   font-size: 1.5rem;
   text-align: center;
-  color: var(--color-text);
+  color: var(--primary-color);
 }
 
 #read-box {
@@ -156,6 +154,8 @@ input {
 footer {
   background-color: var(--color-text);
   padding: 20px;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .footer-content {
@@ -168,7 +168,7 @@ footer {
 .logo img {
   width: 100px;
   height: 100px;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 .footer-info {
@@ -176,10 +176,10 @@ footer {
 }
 
 footer h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 1.1rem;
 }
