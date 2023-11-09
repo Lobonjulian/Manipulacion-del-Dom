@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">    
+    <h1>App de  questions sobre futbol</h1>   
+    <div class="cuestionario" id="custionario" readonly>       
+      <p id="cuestionario-texto"></p>          
+      <div id="btn-correctAnswer"></div>
+    </div>
+
+    <div id="control">        
+      <button id="boton-inicio">Iniciar Prueba</button>     
+      <div id="contenedor-tiempo">
+        <span id="tiempo-texto">Tiempo Restante: <span id="tiempo">0</span></span>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

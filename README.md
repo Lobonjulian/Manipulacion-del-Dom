@@ -10,18 +10,18 @@ desarrollador Front-end.
 ---
  - Trabajos realizados
 
-|   #     |         Proyecto    |       Live Demo  | Code   |
+|   #     |         Proyecto    |       Live Demo  | Codigo   |
 |   :-:   |         :-:         |           :-:    |   :-:  |
 |   01    | App de Generación de colores Hexadecimal | [Live Demo](https://colores-hexadecimal.vercel.app/) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Codigo%20Hexadecimal) | 
-|   02    | Cronometro | ![Live Demo](/Cronometro//img/cronometro.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Cronometro) |
-|   03    | Modo de pagina | ![Live Demo](/modo%20de%20pagina/img/pagina.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/modo%20de%20pagina) |
+|   02    | Cronometro | [Live Demo](/Cronometro//img/cronometro.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Cronometro) |
+|   03    | Modo de pagina | [Live Demo](/modo%20de%20pagina/img/pagina.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/modo%20de%20pagina) |
 |   04    | Buscador de Perfiles en Github |  [Live Demo](https://buscadordeperfilengithub.netlify.app/) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/GitHub%20api)|
-|   05    | Calculadora de Edad | ![Live Demo](/Calculadora%20de%20edad//img/calculadoraEdad.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/calculadora%20de%20edad) |
-|   06    | Calculadora Básica | ![Live Demo](/Calculadora///img/calculadora%20(2).png)|[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Calculadora) |
+|   05    | Calculadora de Edad | [Live Demo](/Calculadora%20de%20edad/img/calculadoraEdad.png) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/calculadora%20de%20edad) |
+|   06    | Calculadora Básica | [Live Demo](/Calculadora///img/calculadora%20(2).png)|[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Calculadora) |
 |   07    | Tarjeta Expandible | [Live Demo](https://tarjeta-expandible.vercel.app/) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Tarjeta%20Expandible) |
-|   08    | App de Libreria    | ![Live Demo](/ebook/img/logo.png)  |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/ebook) |
+|   08    | App de Libreria    | [Live Demo]()  |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/ebook) |
 |   09    | Piedra papel o Tijeras| [Live Demo](https://juego-de-piedra-papel-o-tijeras.vercel.app/)| [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Piedra%20papel%20O%20tijeras)|
-
+|   10    | Quiz  | [Live Demo]()| [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/)
 ---
 
 ## 🛠 Skills
