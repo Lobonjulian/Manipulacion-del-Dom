@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+:root {
+  --colorBtn: #2283f3;
+  --colorTexto: #f0f8ff;
+  --colorSecundario: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Kenia', sans-serif;
+  background-image: url(img/paisaje.jpg);
+  background-size: cover;
+}
+
+main {
+  height: 70vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 {
+  color: var(--colorTexto);
+}
+
+/*contenedor*/
+.contenedor {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--colorSecundario);
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  width: 75%;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--colorBtn);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: var(--colorBtn);
+  color: var(--colorTexto);
+  border: none;
+  cursor: pointer;
+}
+
+#datoClima {
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--colorTexto);
+}
+
+footer a {
+  font-size: 2.5rem;
+  cursor: pointer;
+  margin-right: 15px;
+  color: var(--colorTexto);
+}

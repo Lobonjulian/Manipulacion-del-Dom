@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>app Clima</title>
+  <link rel="shortcut icon" href="./img/haze.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="img/logo.png" alt="logo" width="100px">
+      <h1>Aplicación del Clima <i class="ti ti-haze"></i></h1>
+    </header>
+
+    <main class="contenedor">
+      <div class="localizacion">
+        <input type="text" id="inputCiudad" placeholder="Bogota">
+        <button id="btnBuscar">Buscar</button>
+      </div>
+      <div id="datoClima">
+      </div>
+    </main>
+
+    <footer>
+      <p>Realizado con 💖 por Julian Lobon </p>
+      <script>
+        const fecha = new Date();
+        document.write(fecha.getFullYear());
+      </script>
+      <div>
+          <a href="https://github.com/lobonjulian" target="_blank"><i class="ti ti-brand-github-filled"></i></a>
+          <a href="http://www.linkedin.com/in/julian-aguilar-" target="_blank"><i class="ti ti-brand-linkedin"></i></a>
+          <a href="https://julianlobon.github.io/" target="_blank"><i class="ti ti-world-www"></i></a>
+
+        </a>
+      </div>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

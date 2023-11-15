@@ -1,99 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/reading.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
-    <title>Ebook App</title>
-    <script
-      src="https://kit.fontawesome.com/a239ef0096.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <h1 class="header--h1">Library App</h1>
-        <!-- pendiente de implementar -->
-        <button class="header__btn__login btn">Login</button>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/reading.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <title>Ebook App</title>
+  <script src="https://kit.fontawesome.com/a239ef0096.js" crossorigin="anonymous"></script>
+</head>
 
-      <main class="main">
-        <button class="main__btn btn" id="open-form">Add a book</button>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header--h1">Library App</h1>
+      <!-- pendiente de implementar -->
+      <button class="header__btn__login btn">Login</button>
+    </header>
 
-        <div id="form-container">
-          <form id="form" class="form form__container">
-            <label for="input-title">Titulo</label>
-            <input
-              type="text"
-              name="input-title"
-              id="input-title"
-              placeholder="Title"
-              required
-            />
-            <label for="input-author">Author</label>
-            <input
-              type="text"
-              name="input-author"
-              id="input-author"
-              placeholder="Author"
-              required
-            />
-            <label for="input-pages">Numero de paginas :</label>
-            <input
-              type="number"
-              min="10"
-              maxlength="100"
-              name="input-pages"
-              id="input-pages"
-              placeholder="Pages"
-              required
-            />
+    <main class="main">
+      <button class="main__btn btn" id="open-form">Add a book</button>
 
-            <div class="form form__checkbok" id="input-checkbox">
-              <input
-                class="form__checkbok__input"
-                type="checkbox"
-                id="input-read-yes"
-                name="input-read-yes"
-                value="yes"
-              />
-              <label for="input-read-yes">Read?</label>
-            </div>
+      <div id="form-container">
+        <form id="form" class="form form__container">
+          <label for="input-title">Titulo</label>
+          <input type="text" name="input-title" id="input-title" placeholder="Title" required />
+          <label for="input-author">Author</label>
+          <input type="text" name="input-author" id="input-author" placeholder="Author" required />
+          <label for="input-pages">Numero de paginas :</label>
+          <input type="number" min="10" maxlength="100" name="input-pages" id="input-pages" placeholder="Pages"
+            required />
 
-            <input
-              class="btn form__btn__input"
-              id="submit-btn"
-              type="submit"
-              value="Submit"
-            />
-
-            <button class="form__btn__close btn" id="close-form">
-              <i class="fa-solid fa-ban"> Close</i>
-            </button>
-          </form>
-        </div>
-      </main>
-
-      <div class="books-container"></div>
-
-      <footer>
-          <div class="footer-content">
-            <div class="logo">
-              <img src="./img/logo.png" alt="Logo" />
-            </div>
-            <div class="footer-info">
-              <h3>Library App</h3>
-              <p>Application developed by Julian Lobon</p>
-              <p>Contact information: Julitolos6@gmail.com</p>
-              <p><i class="fa-solid fa-copyright"></i> Copyright</p>
-              <p><script> document.write(new Date().getFullYear()) </script></p>
-            </div>
+          <div class="form form__checkbok" id="input-checkbox">
+            <input class="form__checkbok__input" type="checkbox" id="input-read-yes" name="input-read-yes"
+              value="yes" />
+            <label for="input-read-yes">Read?</label>
           </div>
-      </footer>
-    </div>
-    <script src="app.js"></script>
-  </body>
+
+          <input class="btn form__btn__input" id="submit-btn" type="submit" value="Submit" />
+
+          <button class="form__btn__close btn" id="close-form">
+            <i class="fa-solid fa-ban"> Close</i>
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <div class="books-container"></div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <div class="footer-info">
+          <h3>Library App</h3>
+          <p>Application developed by Julian Lobon</p>
+          <p>Contact information: Julitolos6@gmail.com</p>
+          <p><i class="fa-solid fa-copyright"></i> Copyright</p>
+          <p>
+            <script> document.write(new Date().getFullYear()) </script>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+
 </html>
