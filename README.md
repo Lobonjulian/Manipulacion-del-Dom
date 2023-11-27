@@ -1,6 +1,6 @@
 # Hi, I'm Julian Lobon! 👋
 
-# Manipulacion del Dom 
+# Manipulación del Dom  
 
 Este es un proyecto en el cual muestro mis habilidades y conocimiento en el manejo de como
 desarrollador Front-end.
@@ -10,7 +10,7 @@ desarrollador Front-end.
 ---
  - Trabajos realizados
 
-|   #     |         Proyecto    |       Live Demo  | Codigo   |
+|   #     |         Proyecto    |       Live Demo  | Código   |
 |   :-:   |         :-:         |           :-:    |   :-:  |
 |   01    | App de Generación de colores Hexadecimal | [Live Demo](https://colores-hexadecimal.vercel.app/) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Codigo%20Hexadecimal) | 
 |   02    | Cronometro | [Live Demo](https://cronometro-527.netlify.app/) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Cronometro) |
@@ -23,6 +23,7 @@ desarrollador Front-end.
 |   09    | Piedra papel o Tijeras| [Live Demo](https://juego-de-piedra-papel-o-tijeras.vercel.app/)| [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Piedra%20papel%20O%20tijeras)|
 |   10    | Quiz  | [Live Demo]()| [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Quiz)|
 |   11    | App del Clima| [Live Demo](https://climacol.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/App%20clima)|
+|   12    | Generador de password| [Live Demo](https://julianlobon.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Generador%20de%20password)|
 ---
 
 ## 🛠 Skills
@@ -33,4 +34,4 @@ desarrollador Front-end.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://julianlobon.netlify.app/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-aguilar-/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-aguilar-/)

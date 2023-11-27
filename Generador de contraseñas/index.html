@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Contraseña</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous" ></script>
+</head>
+<body>
+  <header class="header">
+   <svg width="54px" height="54px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 13V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V14C3 15.1046 3.89543 16 5 16H12" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14.5 18.5L16.5 20.5L20.5 16.5" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 11.01L12.01 10.9989" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 11.01L16.01 10.9989" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 11.01L8.01 10.9989" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    <h1>Generador de Password</h1>
+  </header>
+  <main class="flex">
+    <div class="contenedor-input">
+      <input type="text" class="input-password" placeholder="Contraseña">
+      <i class="fas fa-copy"></i>
+    </div>
+    <button class="btnPassword button">
+      <i class="fas fa-bolt"></i>
+      Generar
+    </button>
+  </main>
+  <footer class="flex">
+    <p>realizado con <span>&hearts;</span> por Julian Lobon </p>
+    <div class="redes">
+          <a href="https://github.com/Lobonjulian" target="_blank"><i class="fab fa-github button"></i></a>
+          <a href="http://www.linkedin.com/in/julian-aguilar-" target="_blank"><i class="fab fa-linkedin button"></i></a>
+    </div>
+    <p>
+      <script>
+        const date = new Date();
+        document.write(date.getFullYear());
+      </script> 
+  </footer>
+</body>
+</html>
