@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>text encrypt</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a239ef0096.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header flex">
+    <h1>Text Encrypt</h1>
+    <nav class="nav flex">
+      <ul>
+        <li><a href="https://github.com/Lobonjulian" target="_blank" > <i class="fa-brands fa-github-alt"></i>
+        </a></li>
+        <li><a href="https://github.com/Lobonjulian/Manipulacion-del-Dom" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-gamepad"></i></a></li>
+        <li><a href="https://julianlobon.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-handshake"></i></a></li>
+      </ul>
+    </nav>  
+  </header>
+  <main class="flex">
+    <aside class="flex flex--aside">
+      <h3 class="title">Encriptar o Desencriptar</h3>
+      <section class="flex mensaje">
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingresa el texto"></textarea>
+      </section>
+      <section class="flex mensaje">
+        <label for="key-enc">texto encriptado:</label>
+        <input type="text " id="key-enc" placeholder="clave">
+      </section>
+      <section class="botones">
+        <button class="btn" id="btn-encriptar">Encriptar</button>
+        <button class="btn" id="btn-desencriptar">Desencriptar</button>
+      </section>
+      <section class="resultado">
+      <h3>Texto Desencriptado</h3>
+      <textarea name="" id="resultado" cols="30" rows="10"></textarea>
+    </section>
+    </aside>
+  </main>
+  <footer class="flex">
+    <p>realizado con <span>&hearts;</span> por Julian Lobon </p>
+    <p class="footer--copyright">Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
