@@ -1,4 +1,6 @@
-# Asignación
+# The Odin Proyect
+
+## Asignación
 
 ¡No olvides comprometerte temprano y con frecuencia! Usted puede!
 
@@ -37,3 +39,18 @@ Abra las herramientas de desarrollo de su navegador.
 
 - También echa un vistazo prompts.
 - Deberías poder entrar 64 y haga que aparezca una nueva cuadrícula de 64x64 sin cambiar la cantidad total de píxeles utilizados.
+
+### Crédito extra  
+
+Transforma el comportamiento de un cuadrado al interactuar con el ratón introduciendo una serie de modificaciones.  
+ 
+ 1. En lugar de que los cuadrados sean del mismo color en toda la cuadrícula, aleatorice los valores RGB de squares’ con cada interacción.  
+ 
+ 2. Además, implemente un efecto de oscurecimiento progresivo donde cada interacción agregue un 10% más de negro o color al cuadrado. El objetivo es lograr un cuadrado completamente negro solo después de diez interacciones. Puede elegir hacer uno o ambos de estos desafíos, depende de usted.
+
+ ## versiones:
+
+|         version     |       Live Demo  | Código   |
+|         :-:         |           :-:    |   :-:    |
+|   01    |  [Live Demo](https://etch-a-sketch-version1.netlify.app) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/commit/e61644d76b67af516b5bed7b43bb298a77840bf5)
+|   02    | [Live Demo](https://etch-a-sketch-version2.netlify.app) |[Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/etch-a-sketch) | 
