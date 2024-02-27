@@ -1,0 +1,31 @@
+ h1, p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.cuadros {
+  outline: 1px solid #6b6767;
+}
+
+button {
+  background: linear-gradient(140deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  box-shadow: -6px -5px 18px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 5s ease;
+}
+ 
+button:hover {
+  background: linear-gradient(140deg, rgba(31, 70, 145, 1) 0%, rgba(75, 118, 200, 1) 100%);
+  font-weight: bold;
+  }
