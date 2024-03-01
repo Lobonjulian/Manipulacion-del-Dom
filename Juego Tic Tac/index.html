@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juego Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="img/tic-tac-toe.png" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/a239ef0096.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div id="modal-container">
+    <div class="modal cerrar-modal flex" id="modal">
+      <div class="mensaje">
+        <h3>El Resultado es:</h3>
+      </div>
+      <div class="reset">
+        <button id="resetBtnModal" class="btn btn-reset">Reiniciar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container flex">
+    <header class="header">
+      <h1>Tic Tac Toe</h1>
+      <nav class="nav flex">
+        <div class="rival">
+          <h4>Opciones del Juego</h4>
+          <div class="opciones">
+            <button class="btn" id="multiJugador">MultiJugador</button>
+            <button class="btn" id="computadora">Computadora</button>
+          </div>
+        </div>
+
+        <div class="nivel">
+          <h4>Nivel</h4>
+          <div class="opciones">
+            <button class="btn" id="facil">Facil</button>
+            <button class="btn" id="normal">Normal</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="displayPlayer jugadorX" id="displayPlayer"></main>
+    <div class="cajas">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <div class="reset">
+      <button class="btn btn-reset" id="resetBtn">Reiniciar</button>
+    </div>
+
+    <footer class="footer">
+      <div class=footer>
+        <p>Elaborado por <em>Julian Lobon</em></p>
+        <p>
+          2023 -
+          <script> document.write(new Date().getFullYear())</script>
+        </p>
+      </div>
+      <div class="redes">
+        <a href="https://github.com/Lobonjulian" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/julian-aguilar-" target="_blank">
+          <i class="fab fa-linkedin"></i>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
