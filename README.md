@@ -24,6 +24,9 @@ desarrollador Front-end.
 |   10    | Quiz  | [Live Demo]()| [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Quiz)|
 |   11    | App del Clima| [Live Demo](https://climacol.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/App%20clima)|
 |   12    | Generador de password| [Live Demo](https://julianlobon.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Generador%20de%20password)|
+|   13   |  Juego Tic-tac-toe| [Live Demo](https://tic-tac-toe-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20Tic%20Tac)|
+|   14    |  Restaurante Webpack| [Live Demo](https://restaurante-webpack-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Restaurante)|
+
 ---
 
 ## 🛠 Skills
@@ -33,5 +36,5 @@ desarrollador Front-end.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://julianlobon.netlify.app/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jl-portfolio-cv.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-aguilar-/)

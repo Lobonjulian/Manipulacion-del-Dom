@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+  background-size: 55px 55px;
+  background-position: -5px -5px;
+  color: #fffdfd;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  color: #1900ff;
+}
+
+/* home */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem
+}
+
+button {
+  font-size: .75rem;
+  padding: 0.8em 2em;
+  background-color: #000;
+  border: 3px solid #1900ff;
+  border-radius: 1em;
+  color: #fff;
+  font-weight: bolder;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+  box-shadow: -5px 5px 0px 0px #1900ff;
+}
+
+button:hover {
+  transform: translate(5px, -5px);
+}
+
+.container {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#home {
+  background: url("./assets/home.jpg") fixed center center no-repeat;
+  background-size: contain;
+}
+
+#texto {
+  margin: auto;
+  height: fit-content;
+  padding: 2rem;
+  background-color: #00000073;
+  border: 2px solid #cee5ff;
+}
+
+img {
+  width: 50%;
+  border-radius: 12px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* menu */
+.menu {
+  margin-top: 3rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  padding: .7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  background: linear-gradient(135deg, rgba(201, 207, 194, 0.05), #fff4f400);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 4px solid rgba(252, 7, 7, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.text-description {
+  text-wrap: pretty;
+  font-style: italic;
+}
+
+/* sobre mi */
+.about {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 ;
+}
