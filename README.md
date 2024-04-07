@@ -28,6 +28,7 @@ desarrollador Front-end.
 |   13   |  Juego Tic-tac-toe| [Live Demo](https://tic-tac-toe-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20Tic%20Tac)|
 |   14    |  Restaurante Webpack| [Live Demo](https://restaurante-webpack-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Restaurante)|
 |   15    | Juego de Rol      | [Live Demo](https://juego-de-rol-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20de%20Rol)|
+|   16    | Mp3 player | [Live Demo](https://mp3-player-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Mp3%20Player)|
 ---
 
 ### 🛠 Skills
