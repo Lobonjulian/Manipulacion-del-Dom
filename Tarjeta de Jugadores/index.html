@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jugadores de America de Cali</title>
+</head>
+<body>
+  <h1 class="title">Nomina de jugadores 2024-1</h1>
+  <main>
+    <div class="team-stats">
+      <p>Equipo: <span id="team"></span></p>
+      <p>Deporte: <span id="sport"></span></p>
+      <p>Año: <span id="year"></span></p>
+      <p>Entrenador: <span id="head-coach"></span></p>
+    </div>
+    <label class="options-label" for="players">Filtrar por:</label>
+    <select name="players" id="players">
+      <option value="all">Todos los Jugadores</option>
+      <!-- <option value="nickname">Apodos</option> -->
+      <option value="portero">Posición Portero</option>
+      <option value="defensa">Posición Defensa</option>
+      <option value="volante">Posición Volante</option>
+      <option value="delantero">Posición Delantero</option>
+      <option value="lateral-derecho">Posición Lateral Derecho</option>
+      <option value="lateral-izquierdo">Posición Lateral Izquierdo</option>
+      <option value="volante-defensivo">Posición Volante Defensivo</option>
+      <option value="extremo-derecho">Posición Extremo Derecho</option>
+      <option value="extremo-izquierdo">Posición Extremo Izquierdo</option>
+    </select>
+    <div class="cards" id="player-cards">
+      <div class="player-card">
+        <h2>Cristian Barrios</h2>
+        <p>Posición: Extremo Derecho</p>
+        <p>Numero: 7</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Michael Barrios</h2>
+        <p>Posición: Extremo Derecho</p>
+        <p>Numero: 18</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Daniel Bocanegra</h2>
+        <p>Posición: Defensa</p>
+        <p>Numero: 24</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Edwin Cardona</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 88</p>
+        <p>Nickname: El Gordo</p>
+      </div>
+      <div class="player-card">
+        <h2>Nilson Castrillón</h2>
+        <p>Posición: Lateral Derecho</p>
+        <p>Numero: 13</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Josen Escobar</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 36</p>
+        <p>Nickname: Capitancito</p>
+      </div>
+      <div class="player-card">
+        <h2>Yojan Garces</h2>
+        <p>Posición: Delantero</p>
+        <p>Numero: 35</p>
+        <p>Nickname: Papula</p>
+      </div>
+      <div class="player-card">
+        <h2>John Garcia</h2>
+        <p>Posición:Defensa</p>
+        <p>Numero: 15</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Joel Graterol</h2>
+        <p>Posición: Portero</p>
+        <p>Numero: 1</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Oscar Hernandez</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 23</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Rodrigo Holgado</h2>
+        <p>Posición: Delantero</p>
+        <p>Numero: 9</p>
+        <p>Nickname: El Pirata</p>
+      </div>
+      <div class="player-card">
+        <h2>Victor Ibarbo</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 8</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Franco Leys</h2>
+        <p>Posición: Volante Defensivo</p>
+        <p>Numero: 32</p>
+        <p>Nickname: Papitas</p>
+      </div>
+      <div class="player-card">
+        <h2>Yaliston Martinez</h2>
+        <p>Posición: Lateral Izquierdo</p>
+        <p>Numero: 30</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Esneyder Mena</h2>
+        <p>Posición: Lateral Izquierdo</p>
+        <p>Numero: 26</p>
+        <p>Nickname: El Hijo del Viento</p>
+      </div>
+      <div class="player-card">
+        <h2>David Mina</h2>
+        <p>Posición: Lateral Izquierdo</p>
+        <p>Numero: 14</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Andres Mosquera</h2>
+        <p>Posición: Defensa</p>
+        <p>Numero: 4</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Juan Munera</h2>
+        <p>Posición: Portero</p>
+        <p>Numero: 31</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Jeisson Palacios</h2>
+        <p>Posición: Defensa</p>
+        <p>Numero: 5</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Luis Paz</h2>
+        <p>Posición: Volante Defensivo</p>
+        <p>Numero: 19</p>
+        <p>Nickname: El Contador</p>
+      </div>
+      <div class="player-card">
+        <h2>David Quintero</h2>
+        <p>Posición: Portero</p>
+        <p>Numero: 38</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Jader Quiñones</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 42</p>
+        <p>Nickname: Janfry</p>
+      </div>
+      <div class="player-card">
+        <h2>(Capitan) Adrian Ramos</h2>
+        <p>Posición: Delantero</p>
+        <p>Numero: 20</p>
+        <p>Nickname: El ídolo</p>
+      </div>
+      <div class="player-card">
+        <h2>Rodrigo Rivas</h2>
+        <p>Posición: Delantero</p>
+        <p>Numero: 38</p>
+        <p>Nickname: N/A</p>
+      </div>
+      <div class="player-card">
+        <h2>Harold Rivera</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 17</p>
+        <p>Nickname: N/A</p>
+      </div> 
+      <div class="player-card">
+        <h2>Andres Sarmiento</h2>
+        <p>Posición: Extremo Izquierdo</p>
+        <p>Numero: 29</p>
+        <p>Nickname: N/A</p>
+      </div> 
+      <div class="player-card">
+        <h2>Gaston Sauro</h2>
+        <p>Posición: Defensa</p>
+        <p>Numero: 2</p>
+        <p>Nickname: N/A</p>
+      </div> 
+      <div class="player-card">
+        <h2>Jorge Soto</h2>
+        <p>Posición: Portero</p>
+        <p>Numero: 12</p>
+        <p>Nickname: N/A</p>
+      </div> 
+      <div class="player-card">
+        <h2>Luis Sanchez</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 11</p>
+        <p>Nickname: Niche</p>
+      </div>
+      <div class="player-card">
+        <h2>Ever Valencia</h2>
+        <p>Posición: Extremo Izquierdo</p>
+        <p>Numero: 22</p>
+        <p>Nickname: N/A</p>
+      </div>
+       <div class="player-card">
+        <h2>Edwin Velasco</h2>
+        <p>Posición: Lateral Izquierdo</p>
+        <p>Numero: 21</p>
+        <p>Nickname: N/A</p>
+      </div> 
+      <div class="player-card">
+        <h2>Alexis Zapata</h2>
+        <p>Posición: Volante</p>
+        <p>Numero: 25</p>
+        <p>Nickname: N/A</p>
+      </div>
+
+    </div>
+
+  </main>
+  <footer>&copy; JulianLobon</footer>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+   
