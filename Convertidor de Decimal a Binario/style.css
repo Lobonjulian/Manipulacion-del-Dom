@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light: #f5f6f7;
+  --dark: #1b1b32;
+  --blue: #8182e0;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: var(--light);
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 20px 0;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-btn {
+  background-color: var(--blue);
+  cursor: pointer;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  transition: all 5s ease;
+}
+
+.convert-btn:hover {
+  background-color: var(--light);
+  font-weight: 600;
+}
+
+.number-input {
+  height: 25px;
+}
+
+#result {
+  margin: 10px 0;
+  min-width: 200px;
+  width: fit-content;
+  min-height: 80px;
+  word-break: break-word;
+  padding: 15px;
+  border: 5px solid var(--blue);
+  font-size: 2rem;
+  text-align: center;
+}
+
+#animation-container {
+  margin: auto;
+  max-width: 300px;
+}
+
+.animation-frame {
+  margin: 250px auto 0;
+  padding: 15px 10px;
+  border: 5px solid var(--blue);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .input-container {
+    flex-direction: row;
+  }
+
+  #result {
+    max-width: 460px;
+  }
+}
