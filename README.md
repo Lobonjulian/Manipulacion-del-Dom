@@ -30,6 +30,7 @@ desarrollador Front-end.
 |   15    | Juego de Rol      | [Live Demo](https://juego-de-rol-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20de%20Rol)|
 |   16    | Mp3 player | [Live Demo](https://mp3-player-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Mp3%20Player)|
 |   17    | Formateado de Fecha  | [Live Demo](https://formateador-de-tiempo-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Formateador%20de%20tiempo)|
+|   18    | Todo App        | [Live Demo](https://todo-app-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Todo%20app)|
 ---
 
 ### 🛠 Skills
