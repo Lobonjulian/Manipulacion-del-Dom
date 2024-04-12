@@ -53,7 +53,9 @@ h1 {
 }
 
 .number-input {
-  height: 25px;
+  border-radius: 1rem;
+  padding: .3rem;
+  outline: none;
 }
 
 #result {
