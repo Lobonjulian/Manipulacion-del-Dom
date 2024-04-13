@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Spam Filter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="main-text">
+    <h1 class="title">¿Es esto spam?</h1>
+    <p class="description">
+      Ingrese una frase para verificar si se marcará como spam o no.
+    </p>
+  </header>
+
+  <main>
+    <label class="message-label" for="message-input">Mensaje: </label>
+    <textarea placeholder="Introduzca el mensaje aquí" value="" name="message" id="message-input" rows="10"
+      cols="40"></textarea>
+    <button class="btn" id="check-message-btn" type="button">
+      Comprobar mensaje
+    </button>
+    <p id="result"></p>
+  </main>
+
+  <footer class="footer">&copy; Julian Lobon - 2024 </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

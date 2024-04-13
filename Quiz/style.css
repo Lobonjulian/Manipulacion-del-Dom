@@ -5,12 +5,12 @@ body {
   align-items: center;
   height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: url(./img/campo.jpg);
+  background-image: url(./assets/img/campo.jpg);
 }
 
 /* contenedores */
 .container {
-  background-image: url(./img/balon.jpg);
+  background-image: url(./assets/img/balon.jpg);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px #160f0f;
@@ -33,16 +33,20 @@ h1 {
 #btn-correctAnswer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 1rem;
 }
 
 button {
-  height: 45px;
-  font-size: 16px;
-  background-color: #eaeaea;
-  border: none;
+  padding: 10px;
   border-radius: 5px;
+  border: none;
+  font-size: 16px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #00ffff;
+  color: rgb(27, 25, 25);
+  box-shadow: 0 0 10px #160f0f; 
+  
 }
 
 button:hover {
