@@ -33,6 +33,7 @@ desarrollador Front-end.
 |   18    | Todo App        | [Live Demo](https://todo-app-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Todo%20app)|
 |   19    | Convertidor de Decimal a Binario | [Live Demo](https://convertidor-de-decimal-a-binario-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Convertidor%20Decimal%20a%20Binario)|
 |   20    | Filtro de Spam    | [Live Demo](https://filtro-de-spam-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Filtro%20de%20Spam)|
+|   21    | Verificacion de Palindromes | [Live Demo](https://verificador-de-palindromes-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Verificacion%20de%20Palindromes)|
 ---
 
 ### 🛠 Skills
