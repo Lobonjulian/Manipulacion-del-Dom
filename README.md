@@ -29,11 +29,12 @@ desarrollador Front-end.
 |   14    |  Restaurante Webpack| [Live Demo](https://restaurante-webpack-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Restaurante)|
 |   15    | Juego de Rol      | [Live Demo](https://juego-de-rol-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20de%20Rol)|
 |   16    | Mp3 player | [Live Demo](https://mp3-player-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Mp3%20Player)|
-|   17    | Formateado de Fecha  | [Live Demo](https://formateador-de-tiempo-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Formateador%20de%20tiempo)|
+|   17    | Formateado de Fecha  | [Live Demo](https://formateador-de-tiempo-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Fotmateador%20de%20Fechas)|
 |   18    | Todo App        | [Live Demo](https://todo-app-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Todo%20app)|
-|   19    | Convertidor de Decimal a Binario | [Live Demo](https://convertidor-de-decimal-a-binario-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Convertidor%20Decimal%20a%20Binario)|
-|   20    | Filtro de Spam    | [Live Demo](https://filtro-de-spam-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Filtro%20de%20Spam)|
+|   19    | Convertidor de Decimal a Binario | [Live Demo](https://convertidor-de-decimal-a-binario-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Convertidor%20de%20Decimal%20a%20Binario)|
+|   20    | Filtro de Spam    | [Live Demo](https://filtro-de-spam-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Filtro%20de%20spam)|
 |   21    | Verificacion de Palindromes | [Live Demo](https://verificador-de-palindromes-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Verificacion%20de%20Palindromes)|
+|   22  | Clasificador de números | [Live Demo](https://clasificador-de-numeros-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Clasificador%20de%20numeros)|
 ---
 
 ### 🛠 Skills
