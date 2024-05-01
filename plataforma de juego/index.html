@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plataforma de Juego</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1 class="main-title">Julitomuxik Warrior</h1>
+      <p class="instructions">
+        Ayuda al jugador principal a navegar hasta los puntos de control amarillos.      </p>
+      <p class="instructions">
+        Utilice las flechas del teclado para mover al jugador.     
+      </p>
+      <p class="instructions">También puedes usar la barra espaciadora para saltar.</p>
+
+      <div class="btn-container">
+        <button class="btn" id="start-btn">Empezar Juego</button>
+      </div>
+    </div>
+
+    <div class="checkpoint-screen">
+      <h2>¡Felicitaciones!</h2>
+      <p>Llegaste al último punto de control.</p>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
