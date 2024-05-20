@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juego de Dados</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Juego de Dados</h1>
+    <button class="btn" id="rules-btn" type="button">Mostrar reglas</button>
+    <div class="rules-container">
+      <h2>Reglas</h2>
+      <ul>
+        <li>Hay un total de seis rondas</li>
+        <li>Solo puedes tirar los dados tres veces por ronda</li>
+        <li>Para comenzar el juego, tira los dados</li>
+        <li>
+          A continuación, elige una de las puntuaciones seleccionadas o vuelve a tirar los dados
+        </li>
+        <li>
+          Si eliges una puntuación seleccionada, pasarás a la siguiente ronda
+        </li>
+        <li>
+          Si se niega a elegir una partitura seleccionada, puede tirar el Vuelve a cortar dos veces más
+        </li>
+      </ul>
+      <h2 class="points">Puntos</h2>
+      <ul>
+        <li>Trío: Suma de los cinco dados</li>
+        <li>Póquer: Suma de los cinco dados</li>
+        <li>Full house: Trío y pareja - 25 puntos</li>
+        <li>
+          Escalera pequeña: Cuatro de los dados tienen valores consecutivos: 30 puntos
+        </li>
+        <li>
+          Escalera grande: Los cinco dados tienen valores consecutivos: 40 puntos </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <form id="game">
+      <div id="dice">
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+        <div class="die"></div>
+      </div>
+
+      <p class="rounds-text">
+        <strong>Rolls:</strong> <span id="current-round-rolls">0</span> |
+        <strong>Round:</strong> <span id="current-round">1</span>
+      </p>
+
+      <div id="score-options">
+        <div>
+          <input type="radio" name="score-options" id="three-of-a-kind" value="three-of-a-kind" disabled />
+          <label for="three-of-a-kind">Trío<span></span></label>
+        </div>
+        <div>
+          <input type="radio" name="score-options" id="four-of-a-kind" value="four-of-a-kind" disabled />
+          <label for="four-of-a-kind">Cuatro iguales<span></span></label>
+        </div>
+        <div>
+          <input type="radio" name="score-options" id="full-house" value="full-house" disabled />
+          <label for="full-house">Casa llena<span></span></label>
+        </div>
+        <div>
+          <input type="radio" name="score-options" id="small-straight" value="small-straight" disabled />
+          <label for="small-straight">Recta pequeña<span></span></label>
+        </div>
+        <div>
+          <input type="radio" name="score-options" id="large-straight" value="large-straight" disabled />
+          <label for="large-straight">Recta grande<span></span></label>
+        </div>
+
+        <div>
+          <input type="radio" name="score-options" id="none" value="none" disabled />
+          <label for="none">Ninguna de las anteriores<span></span></label>
+        </div>
+      </div>
+
+      <button class="btn" id="keep-score-btn" type="button">
+        Mantener la puntuación seleccionada anteriormente
+      </button>
+      <button class="btn" id="roll-dice-btn" type="button">
+        Tira los dados
+      </button>
+    </form>
+
+    <div id="scores">
+      <h3>Historial de puntuaciones (Total puntuacion: <span id="total-score">0</span>)</h3>
+      <ol id="score-history"></ol>
+    </div>
+  </main>
+  <script src="./main.js"></script>
+</body>
+
+</html>
