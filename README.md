@@ -33,10 +33,13 @@ desarrollador Front-end.
 |   18    | Todo App        | [Live Demo](https://todo-app-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Todo%20app)|
 |   19    | Convertidor de Decimal a Binario | [Live Demo](https://convertidor-de-decimal-a-binario-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Convertidor%20de%20Decimal%20a%20Binario)|
 |   20    | Filtro de Spam    | [Live Demo](https://filtro-de-spam-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Filtro%20de%20spam)|
-|   21    | Verificacion de Palindromes | [Live Demo](https://verificador-de-palindromes-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Verificacion%20de%20Palindromes)|
+|   21    | Verificación de Palindromes | [Live Demo](https://verificador-de-palindromes-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Verificacion%20de%20Palindromes)|
 |   22  | Clasificador de números | [Live Demo](https://clasificador-de-numeros-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Clasificador%20de%20numeros)|
 |   23  | Hoja de Calculo | [Live Demo](https://hoja-de-calculo-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/hoja%20de%20calculo)|
 |   24  | Carrito de Compras | [Live Demo](https://carrito-de-compras-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Carrito%20de%20Compras)|
+|  25   | plataforma de juego | [Live Demo](https://plataforma-de-juego-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/plataforma%20de%20juego)|
+|   26    | Juego de Dados | [Live Demo](https://juego-de-dados-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Juego%20de%20Dados)|
+|  27   | Pagina de autor de noticias | [Live Demo](https://noticias-de-autor-jl.netlify.app/) | [Code](https://github.com/Lobonjulian/Manipulacion-del-Dom/tree/main/Pagina%20de%20autor%20de%20noticias)|
 
 ---
 
